@@ -8,8 +8,6 @@ c#으로 스도쿠 개임을 만드려보려고 합니다
 
 이미지 적용을해야지 글을 쓰는데 도대체 어떻게 적용을 하는거냐 이거
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
 ![1]({{ site.baseurl }}/images/1.png)
 
 아 그래이거지 어거야 이제 글쓰자 
