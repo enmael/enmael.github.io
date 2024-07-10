@@ -10,3 +10,5 @@ c#으로 스도쿠 개임을 만드려보려고 합니다
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
+![1]({{ site.baseurl }}/images/1.png)
+
