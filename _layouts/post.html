@@ -3,6 +3,14 @@ layout: default
 ---
 
 <article class="post">
+
+  <script src="https://utteranc.es/client.js"
+        repo="enmael/enmael.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
@@ -13,12 +21,5 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <script src="https://utteranc.es/client.js"
-        repo="enmael.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
   {% include disqus.html %}
 </article>
