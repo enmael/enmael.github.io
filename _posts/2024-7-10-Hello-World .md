@@ -1,6 +1,9 @@
 ---
 layout: post
 title: c#으로 스도쿠(Sudoku) 게임 만들기 - 1
+date : 2024-07-10
+author : "Your Name"
+categories: blog
 ---
 스도쿠 게임은 9x9칸에서 진행되는 퍼즐 게임으로
 1부터 9의 숫자들 중복없이  
