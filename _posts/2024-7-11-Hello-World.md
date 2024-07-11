@@ -7,7 +7,11 @@ categories: blog
 ---
 
   <h2> 시간 복잡도 분석</h2>
-  <span style="font-size: 15px;">입력의 크기 n 에 대해서 걸리는 시간의 증가를 나타낸것 기법</span>
+  <hr>
+  
+  <span style="font-size: 15px;">
+  입력의 크기 n 에 대해서 걸리는 시간의 증가를 나타낸것 기법
+  </span>
 
   <h4>상수 시간 O(1)</h4>
   <h4>로그 시간 O(log n)</h4>
