@@ -6,16 +6,23 @@ author : "enmael"
 categories: blog
 ---
 
-<h2> 시간 복잡도 분석<h2>
-  
-  <div> div 입력 크기 n에 따라 알고리즘이 소요하는 시간을 예측하는 기법</div>
+<head>
+  <style>
+        .my-div {
+            /* CSS 속성들을 여기에 작성합니다 */
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+  <h1> 시간 복잡도 분석<h1>
+    < div class="my-div">
+      <p>입력 크기 n에 따라 알고리즘이 소요하는 시간을 예측하는 기법</p>
+    </div>
+</body>
 
-<p>입력 크기 n에 따라 알고리즘이 소요하는 시간을 예측하는 기법<pr>
-  
-<h4> 상수 시간 O(1) <h4>
-<h4> 로그 시간 O(log n) <h4>
-<h4> 선형 시간  O(n) <h4>
-<h4> 제곱 시간  O(n²) <h4>
 
 
 
