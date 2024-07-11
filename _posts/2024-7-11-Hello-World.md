@@ -7,14 +7,7 @@ categories: blog
 ---
 
 <head>
-  <style>
-        .my-div {
-            /* CSS 속성들을 여기에 작성합니다 */
-            background-color: #f0f0f0;
-            padding: 20px;
-            border: 1px solid #ccc;
-        }
-    </style>
+ 
 </head>
 <body>
   <h1> 시간 복잡도 분석<h1>
