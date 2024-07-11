@@ -6,13 +6,9 @@ author : "enmael"
 categories: blog
 ---
 
-<head>
- 
-</head>
-<body>
   <h1> 시간 복잡도 분석<h1>
-  <span style="font-size: 12px;">작은 텍스트</span>
-</body>
+  <span style="font-size: 12px;">입력의 크기 n 에 대해서 걸리는 시간의 증가를 나타낸것 기법</span>
+
 
 
 
