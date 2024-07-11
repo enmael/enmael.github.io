@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post3
 title: 지킬2 글작성법 
 ---
 
