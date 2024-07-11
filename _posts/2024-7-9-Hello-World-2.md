@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 지킬2 글작성법 
+date : 2024-07-09
+author : "Your Name"
+categories: blog
 ---
 
 지킬2 블로그에서 글작성방법을 정리해둔곳입니다
