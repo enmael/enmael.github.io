@@ -18,9 +18,7 @@ categories: blog
 </head>
 <body>
   <h1> 시간 복잡도 분석<h1>
-    < div class="my-div">
-      <p>입력 크기 n에 따라 알고리즘이 소요하는 시간을 예측하는 기법</p>
-    </div>
+  <span style="font-size: 12px;">작은 텍스트</span>
 </body>
 
 
