@@ -5,7 +5,7 @@ date : 2024-07-12
 author : "enmael"
 categories: blog
 ---
-<h2> 거품정렬 </h2>
+<h2> 거품정렬(bubble sort) </h2>
 
 <span style="font-size: 15px;">
   (거품 정렬 알고리즘 설명)
