@@ -10,7 +10,7 @@ categories: blog
 <span style="font-size: 15px;">
   (에라토스 채 설명 )
     </span>
-    """c#
+    """csharp
     int number = 100;
 int[] array = new int[number]; 
 
