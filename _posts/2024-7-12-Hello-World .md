@@ -76,4 +76,4 @@ for (int i = 0; i < number; i++)
 }
 ```
 
-![실행결과1]({{ site.baseurl }}/images/실행결과1.png)
+![2]({{ site.baseurl }}/images/2.png)
