@@ -10,7 +10,9 @@ categories: blog
 <span style="font-size: 15px;">
   (거품 정렬 알고리즘 설명)
 </span>
-
+<span style="font-size: 15px;">
+  코드 
+</span>
 ```csharp
 int[] array = new int[5] { 32, 5, 7, 1, 27 };
 int number = 0;
@@ -37,5 +39,7 @@ for(int i =0; i < array.Length; i++)
     Console.Write(array[i]+ ", ");
 }
 ```
-
+<span style="font-size: 15px;">
+  실행결과
+</span>
 ![3]({{ site.baseurl }}/images/3.png)
