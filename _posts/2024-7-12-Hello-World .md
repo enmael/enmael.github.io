@@ -9,9 +9,10 @@ categories: blog
 
 <span style="font-size: 15px;">
   (에라토스 채 설명 )
-    </span>
-    """csharp
-    int number = 100;
+</span>
+
+```csharp
+int number = 100;
 int[] array = new int[number]; 
 
 for(int i = 0; i < number; i++)
@@ -20,5 +21,6 @@ for(int i = 0; i < number; i++)
 }
 
 Sieve(array);
-"""
-    
+
+```
+   
