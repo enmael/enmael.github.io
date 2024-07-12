@@ -10,4 +10,15 @@ categories: blog
 <span style="font-size: 15px;">
   (에라토스 채 설명 )
     </span>
+    """c#
+    int number = 100;
+int[] array = new int[number]; 
+
+for(int i = 0; i < number; i++)
+{
+    array[i] = i;
+}
+
+Sieve(array);
+"""
     
