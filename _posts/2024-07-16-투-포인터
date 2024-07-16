@@ -1,0 +1,57 @@
+---
+layout: post
+title: c# 알고리즘 - 투 포인터(two -pointer)
+date : 2024-07-16
+author : "enmael"
+categories: blog
+---
+<h3>● 투 포인터 (two -pointer)</h3>
+
+<span style="font-size: 15px;">
+  (설명 나중에 적기)
+</span>
+
+```csharp
+
+            int[] array = new int[5] { 1, 2, 5, 2, 5 };
+
+            int start = 0;
+            int end = 0;
+
+            int count = 0;
+            int sum = 0;
+
+            int M = 5;
+
+            while (start < array.Length) // start < 5
+            {
+                if (sum == M)
+                {
+                    count++;
+                    start++;
+                }
+                else if (sum < M)
+                {
+                    end++;
+                }
+                else if (sum > M)
+                {
+                    start++;
+                }
+
+                sum = 0;
+
+                if(start<= end)
+                {
+                    for(int j = start; j <= end; j++)
+                    {
+                        sum = sum + array[j];
+                    }
+                }
+            }
+
+            
+
+            Console.WriteLine("count:"+ count);
+            
+```
