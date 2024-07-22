@@ -1,0 +1,33 @@
+---
+layout: post
+title: c# 알고리즘- 피보나치 수열
+date : 2024-07-22
+author : "enmael"
+categories: blog
+---
+<h3>● 피보나치 수</h3>
+
+<span style="font-size: 15px;">
+피보나치 수(Fibonacci numbers)는 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합인 수열. 
+</span>
+
+```csharp
+ static int Fibonacci(int x)
+ {
+     //int n = x;
+
+     if (x <= 0)
+     {
+         return 0;
+     }
+     else if (x == 1)
+     {
+         return 1;
+     }
+     else
+     {
+         return Fibonacci(x - 1) + Fibonacci(x - 2);
+     }
+
+ }
+```
