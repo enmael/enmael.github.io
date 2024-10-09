@@ -3,13 +3,6 @@ layout: default
 ---
 
 <div class="posts">
-  <h2>Tags</h2> <!-- 태그 제목 추가 -->
-  <ul>
-    {% for tag in site.tags %}
-      <li><a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a> ({{ tag[1].size }})</li>
-    {% endfor %}
-  </ul>
-
   {% for post in site.posts %}
     <article class="post">
 
