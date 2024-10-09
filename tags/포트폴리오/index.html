@@ -1,0 +1,14 @@
+---
+layout: default
+title: "포토폴리오"
+---
+
+<h1>Posts tagged with "포토폴리오"</h1>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains "포토폴리오" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
