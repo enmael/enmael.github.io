@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 깃허브 블로그 작성용 탬플릿
+title: 2024-10-04 깃허브 블로그 작성용 탬플릿
 date : 2024-10-04
 author : "enmael"
 categories: blog
