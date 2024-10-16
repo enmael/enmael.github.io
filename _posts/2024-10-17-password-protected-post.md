@@ -2,7 +2,10 @@
 layout: post
 title: "비밀번호 보호 포스트"
 date: 2024-10-17
-categories: [비공식]
+
+published: true
+categories: blog
+tags: ["unity", "problem"]
 ---
 
 <h2>비밀번호 입력</h2>
