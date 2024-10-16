@@ -1,21 +1,28 @@
 ---
 layout: post
-title: 지킬2 글작성법 
-date : 2024-07-09
-author : "Your Name"
+title: 깃허브 블로그 작성용 탬플릿
+date : 2024-10-04
+author : "enmael"
 categories: blog
+tags: []
 ---
 
-지킬2 블로그에서 글작성방법을 정리해둔곳입니다
+```csharp
+//c# 코드 작성 
+```
 
-1. _posts 폴더에 들어갑니다.
-(이미지1)
-2. 날짜에 맞게 파일 명을 생성 합니다 예 2024-7-10.md
-(이미지2)
-3. title에 작성할 내용의 제목을 입력합니다
-(이미지3)
-4. 5번째 줄부터 글 내용을 작성합니다
+<span style="font-size: 15px;">
+ 글자 입력
+</span>
 
-이미지 첨부 방법 
+![이미지 이름]({{ site.baseurl }}/images/이미지경로와입력)
 
-(이미지4)
+
+<span style="font-size: 15px;">
+ 태그 작성법
+</span>
+
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag }}">{{ tag }}</a>
+{% endfor %}
+
