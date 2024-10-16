@@ -13,6 +13,8 @@ categories: [비공식]
   <p>여기에 비밀번호로 보호된 포스트 내용이 들어갑니다.</p>
 </div>
 
+
+
 <script>
 function checkPassword() {
   const password = document.getElementById("password").value;
