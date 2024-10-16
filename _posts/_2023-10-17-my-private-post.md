@@ -1,32 +1,26 @@
 ---
 layout: post
-title: 유니티 03 과제 
-date : 2024-10-04
-author : "enmael"
-categories: private
-tags: ["unity", "problem"]
+title: "비밀번호 보호 포스트"
+date: 2024-10-17
+categories: [비공식]
 ---
 
-
+<h2>비밀번호 입력</h2>
+<input type="password" id="password" placeholder="비밀번호를 입력하세요">
+<button onclick="checkPassword()">확인</button>
 <div id="content" style="display:none;">
-    <h1>내 비공식 포스트</h1>
-    <p>여기에 비공식 포스트 내용이 들어갑니다.</p>
+  <h3>비밀번호 보호된 내용</h3>
+  <p>여기에 비밀번호로 보호된 포스트 내용이 들어갑니다.</p>
 </div>
-<input type="password" id="password" placeholder="비밀번호 입력">
-<button onclick="checkPassword()">제출</button>
 
 <script>
-    function checkPassword() {
-        var password = document.getElementById("password").value;
-        if (password === "2517") {
-            document.getElementById("content").style.display = "block";
-        } else {
-            alert("비밀번호가 틀렸습니다.");
-        }
-    }
+function checkPassword() {
+  const password = document.getElementById("password").value;
+  const correctPassword = "1234"; // 여기에 원하는 비밀번호를 입력하세요.
+  if (password === correctPassword) {
+    document.getElementById("content").style.display = "block";
+  } else {
+    alert("비밀번호가 잘못되었습니다.");
+  }
+}
 </script>
-
-
-{% for tag in page.tags %}
-  <a href="/tags/{{ tag }}">{{ tag }}</a>
-{% endfor %}
