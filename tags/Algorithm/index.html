@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Algorithm"
+---
+
+<h1>Posts tagged with "Algorithm"</h1>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains "Algorithm" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
