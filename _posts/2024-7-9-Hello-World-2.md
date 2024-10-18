@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2024-10-04 깃허브 블로그 작성용 탬플릿
+title: Hello-World
 date : 2024-10-04
 author : "enmael"
 categories: blog
